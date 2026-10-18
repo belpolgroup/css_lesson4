@@ -2,6 +2,7 @@ body {
     background-color: #cccccc;
     font-family: Verdana, sans-serif;
     font-size: 11px;
+    color: #000000;
 }
 
 #container {
@@ -9,11 +10,13 @@ body {
     margin: auto;
     text-align: justify;
     background-color: #ffffff;
+    color: #000000;
 }
 
 #header {
     height: 50px;
     background-color: #b0b0b0;
+    color: #000000;
 }
 
 #header h1 {
@@ -29,6 +32,7 @@ body {
     background-color: #336699;
     background-image: url("../../../images/nb.gif");
     background-repeat: repeat-x;
+    color: #ffffff;
 }
 
 #nav ul {
@@ -59,17 +63,20 @@ body {
 #nav a:link,
 #nav a:visited {
     color: #ffffff;
+    background-color: #336699;
 }
 
 #nav a:hover,
 #nav a:active {
     color: #333333;
+    background-color: #336699;
 }
 
 #content {
     width: 704px;
     height: 560px;
     background-color: #ffffff;
+    color: #000000;
 }
 
 #content h3 {

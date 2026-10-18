@@ -2,6 +2,7 @@ body {
     background-color: #cccccc;
     font-family: Verdana, sans-serif;
     font-size: 11px;
+    color: #000000;
 }
 
 #container {
@@ -9,11 +10,13 @@ body {
     margin: auto;
     text-align: justify;
     background-color: #ffffff;
+    color: #000000;
 }
 
 #header {
     height: 50px;
     background-color: #b0b0b0;
+    color: #000000;
 }
 
 #header h1 {
@@ -28,6 +31,7 @@ body {
     height: 300px;
     float: left;
     background-color: #e7e7e7;
+    color: #000000;
 }
 
 #content {
@@ -35,6 +39,7 @@ body {
     height: 300px;
     float: left;
     background-color: #ffffff;
+    color: #000000;
 }
 
 #content h3 {
@@ -66,10 +71,11 @@ body {
 }
 
 #content p::first-letter {
-    color: blue;
+    color: #0000ff;
     font-weight: bold;
     font-size: 38px;
     font-family: "Times New Roman", serif;
+    background-color: #ffffff;
 }
 
 a:link {
@@ -77,20 +83,23 @@ a:link {
 }
 
 a:visited {
-    color: black;
+    color: #000000;
     text-decoration: none;
+    background-color: #e7e7e7;
 }
 
 a:hover {
-    color: black;
+    color: #000000;
     font-weight: bold;
     text-decoration: underline;
+    background-color: #e7e7e7;
 }
 
 a:active {
-    color: black;
+    color: #000000;
     font-weight: bold;
     text-decoration: underline;
+    background-color: #e7e7e7;
 }
 
 .visually-hidden {
