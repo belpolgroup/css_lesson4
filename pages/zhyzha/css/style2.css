@@ -1,3 +1,4 @@
+
 body {
     background-color: #cccccc;
     font-family: Verdana, sans-serif;
@@ -61,15 +62,21 @@ body {
 
 #nav a {
     display: block;
-    width: 200px;
+    box-sizing: content-box;
+    width: 66.6667px;
     height: 40px;
+    padding-right: 133.3333px;
     line-height: 39px;
-    color: #000000;
-    text-decoration: none;
     font-size: 12px;
     text-indent: 40px;
+    white-space: nowrap;
+    color: #000000;
+    text-decoration: none;
+    background-color: #94b8e6;
     background-image: url("../../../images/rol.gif");
     background-repeat: no-repeat;
+    background-origin: content-box;
+    background-clip: border-box;
     background-position: left bottom;
 }
 
@@ -81,6 +88,7 @@ body {
 #nav a:hover,
 #nav a:active {
     background-position: 60% bottom;
+    background-color: #336699;
     color: #ffffff;
     font-weight: bold;
 }
