@@ -67,10 +67,8 @@ body {
 
 #nav a {
     display: block;
-    box-sizing: border-box;
     width: 200px;
     height: 39px;
-    padding-right: 133.3333px;
     line-height: 39px;
     font-size: 12px;
     text-indent: 40px;
@@ -80,9 +78,8 @@ body {
     background-color: #94b8e6;
     background-image: url("../../../images/rol.gif");
     background-repeat: no-repeat;
-    background-origin: content-box;
-    background-clip: border-box;
     background-position: left bottom;
+    transition: background-position 0.3s ease;
 }
 
 #nav a:link,
@@ -93,7 +90,7 @@ body {
 
 #nav a:hover,
 #nav a:active {
-    background-position: 60% bottom;
+    background-position: right calc(6 * 10%) bottom;
     background-color: #336699;
     color: #ffffff;
     font-weight: bold;
